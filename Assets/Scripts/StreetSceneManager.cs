@@ -11,7 +11,7 @@ public struct MinigameData {
 }
 
 public class StreetSceneManager : MonoBehaviour {
-
+	
 	[SerializeField] private MinigameData    aretaMinigame;
 	[SerializeField] private GameObject      MinigamePanel;
 	[SerializeField] private TextMeshProUGUI gameName;
