@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using System.Linq;
 using TMPro;
@@ -15,6 +16,7 @@ public class BowlManager : MonoBehaviour {
 	[SerializeField] private Sprite          Stage2Sprite;
 	[SerializeField] private Sprite          Stage3Sprite;
 	[SerializeField] private Sprite          Stage4Sprite;
+	[SerializeField] private Sprite          wonSprite;
 
 	private                  int   clicks       = 0;
 	[SerializeField] private int   neededClicks = 10;
@@ -25,6 +27,8 @@ public class BowlManager : MonoBehaviour {
 	[SerializeField] private float timeToFry = 10;
 	[SerializeField] private GameObject fryingPan;
 	
+	[SerializeField] private GameObject plate;
+	
 		
 
 	private void Start() {
@@ -34,18 +38,14 @@ public class BowlManager : MonoBehaviour {
 	
     private void OnCollisionEnter2D(Collision2D other) {
 	    StageOneMiniGame(other);
+	    StageFourMiniGame(other);
     }
     
-    private void OnMouseDown() {
-	    StageTwoMiniGame();
-	    StageFourMiniGame();
-    }
+    private void OnMouseDown()=> StageTwoMiniGame();
 
-    private void StageFourMiniGame() {
-	    print(clicks);
-	    if (stage != 4) return;
-	    clicks++;
-	    if(clicks >= neededClicks) NextStage();
+    private void StageFourMiniGame(Collision2D other) {
+	    if(stage != 4 || other.gameObject != plate) return;
+		NextStage();
     }
 
     private void StageOneMiniGame(Collision2D other) {
@@ -93,9 +93,22 @@ public class BowlManager : MonoBehaviour {
 	    if(clicks >= neededClicks) NextStage();
     }
 
+    private void Win() {
+	    text.text = "You won!";
+	    GetComponent<SpriteRenderer>().sprite = wonSprite;
+	    plate.SetActive(false);
+	    StartCoroutine(Return(5));
+    }
+
+    private IEnumerator Return(int time) {
+	    yield return new WaitForSeconds(time);
+	    SceneManager.LoadSceneAsync("StreetScene");
+    }
+    
     private void NextStage() {
 	    stage++;
 	    if (stage > stages) {
+		    Win();
 		    StreetSceneManager.instance.GiveReward();
 		    SceneManager.LoadSceneAsync("StreetScene");
 		    return;
@@ -118,9 +131,8 @@ public class BowlManager : MonoBehaviour {
 		    case 4:
 			    GetComponent<SpriteRenderer>().sprite = Stage4Sprite;
 			    fryingPan.SetActive(false);
-			    text.text                  = "Click to Eat!";
-			    clicks                     = 0;
-			    clickDepreciationPerSecond = 0;
+			    text.text                  = "Plate!";
+			    plate.SetActive(true);
 			    break;
 	    }
 	    addedFoods       = new string[] { };
