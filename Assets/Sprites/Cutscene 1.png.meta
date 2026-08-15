@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 9d37a4c0c1f88d34d958e17cc6a40ab9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3470570121769597656
+    second: Cutscene 1_0
+  - first:
+      213: 2251723001579036923
+    second: Cutscene 1_1
+  - first:
+      213: -6916510291914725111
+    second: Cutscene 1_2
+  - first:
+      213: -1120438489266047062
+    second: Cutscene 1_3
+  - first:
+      213: -3944758324496872551
+    second: Cutscene 1_4
+  - first:
+      213: -5379865911152430632
+    second: Cutscene 1_5
+  - first:
+      213: 6696126331276842090
+    second: Cutscene 1_6
+  - first:
+      213: 5549453664868950671
+    second: Cutscene 1_7
+  - first:
+      213: -5306468832126993900
+    second: Cutscene 1_8
+  - first:
+      213: -1475934925748338010
+    second: Cutscene 1_9
+  - first:
+      213: 5399293630419760394
+    second: Cutscene 1_10
+  - first:
+      213: -5454590057895391001
+    second: Cutscene 1_11
+  - first:
+      213: 2885586554694193012
+    second: Cutscene 1_12
+  - first:
+      213: -905747933703032355
+    second: Cutscene 1_13
+  - first:
+      213: -2162650093180882392
+    second: Cutscene 1_14
+  - first:
+      213: 2765163377764970666
+    second: Cutscene 1_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cutscene 1_0
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 597
+        width: 547
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da392c4321f92030800000000000000
+      internalID: 3470570121769597656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_1
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 647
+        width: 105
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0e1b9c32abf3f10800000000000000
+      internalID: 2251723001579036923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_2
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 533
+        width: 207
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909e615e88e9300a0800000000000000
+      internalID: -6916510291914725111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_3
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 324
+        width: 193
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa73f9e51276370f0800000000000000
+      internalID: -1120438489266047062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_4
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 154
+        width: 427
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b499f34376149c0800000000000000
+      internalID: -3944758324496872551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 191
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1b6822570e655b0800000000000000
+      internalID: -5379865911152430632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 191
+        width: 54
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6455e2bb6b6dec50800000000000000
+      internalID: 6696126331276842090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_7
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 266
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82e008b4be930d40800000000000000
+      internalID: 5549453664868950671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 191
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a736946b2ab56b0800000000000000
+      internalID: -5306468832126993900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 191
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a28d2f310d648be0800000000000000
+      internalID: -1475934925748338010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 191
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05f23f33f42eea40800000000000000
+      internalID: 5399293630419760394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_11
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 191
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e094c3fd376d44b0800000000000000
+      internalID: -5454590057895391001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_12
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 192
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fc039dea9ab0820800000000000000
+      internalID: 2885586554694193012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 191
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1369b9d032e63f0800000000000000
+      internalID: -905747933703032355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_14
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 191
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822fc7ec239bcf1e0800000000000000
+      internalID: -2162650093180882392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cutscene 1_15
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 191
+        width: 85
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0b99d0175df5620800000000000000
+      internalID: 2765163377764970666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cutscene 1_0: 3470570121769597656
+      Cutscene 1_1: 2251723001579036923
+      Cutscene 1_10: 5399293630419760394
+      Cutscene 1_11: -5454590057895391001
+      Cutscene 1_12: 2885586554694193012
+      Cutscene 1_13: -905747933703032355
+      Cutscene 1_14: -2162650093180882392
+      Cutscene 1_15: 2765163377764970666
+      Cutscene 1_2: -6916510291914725111
+      Cutscene 1_3: -1120438489266047062
+      Cutscene 1_4: -3944758324496872551
+      Cutscene 1_5: -5379865911152430632
+      Cutscene 1_6: 6696126331276842090
+      Cutscene 1_7: 5549453664868950671
+      Cutscene 1_8: -5306468832126993900
+      Cutscene 1_9: -1475934925748338010
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
