@@ -13,18 +13,32 @@ public struct MinigameData {
 public class StreetSceneManager : MonoBehaviour {
 	
 	[SerializeField] private MinigameData    aretaMinigame;
+	[SerializeField] private MinigameData    gamblingEvent;
 	[SerializeField] private GameObject      MinigamePanel;
 	[SerializeField] private TextMeshProUGUI gameName;
 	[SerializeField] private TextMeshProUGUI gameDescription;
 	[SerializeField] private TextMeshProUGUI reward;
 	
 	private MinigameData currentMinigame;
+
+	public static StreetSceneManager instance;
+
+	private void Awake() {
+		if (instance == null) {
+			instance = this;
+		} else {
+			Destroy(gameObject);
+		}
+	}
 	
     public void OpenMinigamePanel(int index) {
 	    MinigameData data;
 	    switch (index) {
 		    case 0:
 			    data = aretaMinigame;
+			    break;
+		    case 1:
+			    data = gamblingEvent;
 			    break;
 		    default:
 			    return;
@@ -41,6 +55,8 @@ public class StreetSceneManager : MonoBehaviour {
 	    MinigamePanel.SetActive(false);
 	    return;
     }
+    
+    public void GiveReward() => PlayerManager.instance.ChangeMangoes(currentMinigame.reward);
     
     public void CloseMinigamePanel() => MinigamePanel.SetActive(false);
 }

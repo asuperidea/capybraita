@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ArepaMinigame.unity
     guid: a0e2c92eb1cfc0942afcf70d996ee9af
+  - enabled: 1
+    path: Assets/Scenes/GamblingScene.unity
+    guid: ac66bb6209f7ab3479806ae35902c860
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
