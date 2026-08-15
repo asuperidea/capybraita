@@ -29,10 +29,13 @@ public class PlayerManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
 	    if (scene.name != "StreetScene") return;
+	    if(mangoesText == null) mangoesText = GameObject.Find("MangoesText").GetComponent<TextMeshProUGUI>();
 	    mangoesText.text = "Mangoes: " + mangoes.ToString();
     }
     
     public void ChangeMangoes(int amount) => mangoes += amount;
+    
+    
     
     public int GetMangoes() => mangoes;
 }

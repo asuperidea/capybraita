@@ -19,6 +19,16 @@ public class StreetSceneManager : MonoBehaviour {
 	[SerializeField] private TextMeshProUGUI reward;
 	
 	private MinigameData currentMinigame;
+
+	public static StreetSceneManager instance;
+
+	private void Awake() {
+		if (instance == null) {
+			instance = this;
+		} else {
+			Destroy(gameObject);
+		}
+	}
 	
     public void OpenMinigamePanel(int index) {
 	    MinigameData data;
@@ -41,6 +51,8 @@ public class StreetSceneManager : MonoBehaviour {
 	    MinigamePanel.SetActive(false);
 	    return;
     }
+    
+    public void GiveReward() => PlayerManager.instance.ChangeMangoes(currentMinigame.reward);
     
     public void CloseMinigamePanel() => MinigamePanel.SetActive(false);
 }
