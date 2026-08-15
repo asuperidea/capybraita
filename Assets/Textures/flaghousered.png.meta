@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5a5ae9716e8832346b2188fde65b90c1
+guid: 82fd64a5c588c46eba651650f3e89d7f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -811552983748498626
-    second: jls-creation-shop-3532260_640_0
+      213: 1776354190522541824
+    second: flaghousered_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jls-creation-shop-3532260_640_0
+      name: flaghousered_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 640
-        height: 575
+        width: 359
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3b234f6cd8ccb4f0800000000000000
-      internalID: -811552983748498626
+      spriteID: 0076f5989b0e6a810800000000000000
+      internalID: 1776354190522541824
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      jls-creation-shop-3532260_640_0: -811552983748498626
+      flaghousered_0: 1776354190522541824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
