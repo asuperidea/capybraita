@@ -13,6 +13,7 @@ public struct MinigameData {
 public class StreetSceneManager : MonoBehaviour {
 	
 	[SerializeField] private MinigameData    aretaMinigame;
+	[SerializeField] private MinigameData    gamblingEvent;
 	[SerializeField] private GameObject      MinigamePanel;
 	[SerializeField] private TextMeshProUGUI gameName;
 	[SerializeField] private TextMeshProUGUI gameDescription;
@@ -35,6 +36,9 @@ public class StreetSceneManager : MonoBehaviour {
 	    switch (index) {
 		    case 0:
 			    data = aretaMinigame;
+			    break;
+		    case 1:
+			    data = gamblingEvent;
 			    break;
 		    default:
 			    return;

@@ -9,7 +9,7 @@ public class PlayerManager : MonoBehaviour
     
     [SerializeField] private TextMeshProUGUI mangoesText;
     
-    private int mangoes = 0;
+    private int mangoes = 10;
 
     private void Awake() {
 	    if (instance == null) {

@@ -914,6 +914,11 @@ MonoBehaviour:
     description: Make Arepas
     sceneName: ArepaMinigame
     reward: 20
+  gamblingEvent:
+    gameName: Gambling
+    description: Gamble
+    sceneName: GamblingScene
+    reward: 0
   MinigamePanel: {fileID: 1299917719}
   gameName: {fileID: 612869155}
   gameDescription: {fileID: 1698262561}
@@ -1499,7 +1504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5395134053737148000, guid: aef4fa4e7b7791443963a0e7ed862331, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5395134053737148000, guid: aef4fa4e7b7791443963a0e7ed862331, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1511,11 +1516,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5395134053737148000, guid: aef4fa4e7b7791443963a0e7ed862331, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenScene
+      value: OpenMinigamePanel
       objectReference: {fileID: 0}
     - target: {fileID: 5395134053737148000, guid: aef4fa4e7b7791443963a0e7ed862331, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: StreetSceneManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395134053737148000, guid: aef4fa4e7b7791443963a0e7ed862331, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5395134053737148000, guid: aef4fa4e7b7791443963a0e7ed862331, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
