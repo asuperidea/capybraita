@@ -11,7 +11,7 @@ Click on houses to start minigames; follow the instructions on the screen to com
 
 Over time, your hunger will deplete. Click 'E' to eat.
 
-## The Designers
+## The Devs
 This game was made by:
 
 [Thino](https://github.com/Th1n0-I)
