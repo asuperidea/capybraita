@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   inputField: {fileID: 1754042107}
-  rigged: 1
+  rigged: 0
   inAdvantage: 1
 --- !u!1 &1754042105
 GameObject:
