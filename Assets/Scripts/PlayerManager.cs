@@ -55,9 +55,9 @@ public class PlayerManager : MonoBehaviour {
 
 	private void UpdateText() {
 		if (mangoesText == null) mangoesText = GameObject.Find("MangoesText").GetComponent<TextMeshProUGUI>();
-		mangoesText.text = "Mangoes: " + mangoes.ToString();
+		mangoesText.text = mangoes.ToString();
 		if (hungerText == null) hungerText = GameObject.Find("HungerText").GetComponent<TextMeshProUGUI>();
-		hungerText.text = "Hunger: " + hunger.ToString() + "/ 100";
+		hungerText.text = hunger.ToString() + "/ 100";
 	}
 
 	private void Die() {
