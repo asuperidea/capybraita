@@ -18,10 +18,23 @@ public class StreetSceneManager : MonoBehaviour {
 	[SerializeField] private TextMeshProUGUI gameName;
 	[SerializeField] private TextMeshProUGUI gameDescription;
 	[SerializeField] private TextMeshProUGUI reward;
+	[SerializeField] private GameObject      deathPanel;
 	
 	private MinigameData currentMinigame;
 
 	public static StreetSceneManager instance;
+
+	public void Die() {
+		deathPanel.SetActive(true);
+	}
+
+	public void Reset() {
+		deathPanel.SetActive(false);
+		PlayerManager.instance.Restart();
+		SceneManager.LoadScene("StartScene");
+	}
+	
+	public void Quit() => Application.Quit();
 
 	private void Awake() {
 		if (instance == null) {
@@ -30,6 +43,8 @@ public class StreetSceneManager : MonoBehaviour {
 			Destroy(gameObject);
 		}
 	}
+	
+	public void Eat(int amount) => PlayerManager.instance.Eat(amount);
 	
     public void OpenMinigamePanel(int index) {
 	    MinigameData data;
